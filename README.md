@@ -1,46 +1,5 @@
 
-# EaglercraftX 1.8
-
-### Play Minecraft 1.8 in your browser, supports singleplayer and multiplayer
-
-![EaglercraftX 1.8 Screenshot Main Menu](https://deev.is/eagler/cors/eagler-1.8-u22-titlescreen-480p.png)
-
-### This repository contains:
-
- - **Utilities to decompile Minecraft 1.8 and apply patch files to it**
- - **Source code to provide the LWJGL keyboard, mouse, and OpenGL APIs in a browser**
- - **Patch files to mod the Minecraft 1.8 source code to make it browser compatible**
- - **Browser-modified portions of Minecraft 1.8's open-source dependencies**
-
-### This repository does NOT contain:
-
- - **Any portion of the decompiled Minecraft 1.8 source code or resources**
- - **Any portion of Mod Coder Pack and it's config files**
- - **Data that can be used alone to reconstruct portions of the game's source code**
-
-## Getting Started:
-
-### To compile the latest version of the JavaScript client, on Windows:
-
-1. Make sure you have at least Java 11 installed and added to your PATH, it is recommended to use Java 17
-2. Download (clone) this repository to your computer
-3. Double click `CompileLatestClient.bat`, a GUI resembling a classic windows installer should open
-4. Follow the steps shown to you in the new window to finish compiling
-
-### To compile the latest version of the JavaScript client, on Linux/macOS:
-
-1. Make sure you have at least Java 11 installed, it is recommended to use Java 17
-2. Download (clone) this repository to your computer
-3. Open a terminal in the folder the repository was cloned to
-4. Type `chmod +x CompileLatestClient.sh` and hit enter
-5. Type `./CompileLatestClient.sh` and hit enter, a GUI resembling a classic windows installer should open
-6. Follow the steps shown to you in the new window to finish compiling
-
-### To set up the development environment
-
-1. Prepare the required files in the mcp918 folder ([readme](mcp918/readme.txt))
-2. Run the `build_init` script
-3. Run the `build_make_workspace` script
+# Bean Client
 
 ## Browser Compatibility
 
