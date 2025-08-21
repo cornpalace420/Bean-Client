@@ -1,5 +1,5 @@
 
-# Bean Client
+# 🫘 Bean Client
 
 ## Browser Compatibility
 
