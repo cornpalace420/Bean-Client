@@ -5,7 +5,7 @@
 
 The JavaScript runtime of EaglercraftX 1.8 is currently known to work on browsers as old as Chrome 38 on Windows XP, the game supports both WebGL 1.0 and WebGL 2.0 however features such as dynamic lighting and PBR shaders require WebGL 2.0. The game also supports mobile browsers that don't have a keyboard or mouse, the game will enter touch screen mode automatically when touch input is detected. The game also includes an embedded OGG codec (JOrbis) for loading audio files on iOS where the browsers don't support loading OGG files in an AudioContext.
 
-## WebAssembly GC Support
+## WASM-GC Support
 
 EaglercraftX 1.8 also has an experimental WebAssembly GC (WASM-GC) runtime, almost all of the features supported on the JavaScript runtime are also supported on the WebAssembly GC runtime, however it is still incompatible with several major browsers (especially Safari) and will not run in Chrome unless you can access the `chrome://flags` menu or request an origin trial token from Google for your website. Its based on experimental technology and may still crash sometimes, mostly due to browser bugs. Hopefully in the coming months the required feature (JSPI, WebAssembly JavaScript Promise Integration) will become enabled by default on the Chrome browser. It performs significantly better than the JavaScript client, around 50% more FPS and TPS in some cases, and will hopefully replace it someday. Just make sure you enable VSync when you play it, otherwise the game will run "too fast" and choke the browser's event loop, causing input lag.
 
