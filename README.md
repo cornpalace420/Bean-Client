@@ -35,4 +35,6 @@ EaglercraftX 1.8 allows you to use any vanilla Minecraft 1.8 resource pack in yo
 
 ## Multiplayer Play
 
-EaglercraftX 1.8 allows you to connect to any server as long as you enter a special IP, e.g. `wss://server.example.com`. EaglercraftX servers MUST support WebSocket connections as Eaglercraft clients connect over WebSocket and not traditional TCP/IP like Java Minecraft. If you want to host your own server then you must download `eaglercraftx-server.jar` from https://github.com/lax1dude/eaglerxserver, you will find the rest of the instructions there for creating an EaglercraftX server. Finnally for a complete list of servers click [here](https://servers.eaglercraft.com/).
+EaglercraftX 1.8 allows you to connect to any server as long as you enter a special IP, e.g. `wss://server.example.com`. EaglercraftX servers MUST support WebSocket connections as Eaglercraft clients connect over WebSocket and not traditional TCP/IP like Java Minecraft. If you want to host your own server then you must download `eaglercraftx-server.jar` from https://github.com/lax1dude/eaglerxserver, you will find the rest of the instructions there for creating an EaglercraftX server. 
+
+Finally for a complete list of servers click [here](https://servers.eaglercraft.com/)
