@@ -32,3 +32,7 @@ EaglercraftX 1.8 includes an integrated voice-chat service that can be used in s
 ## Resource Packs
 
 EaglercraftX 1.8 allows you to use any vanilla Minecraft 1.8 resource pack in your browser by importing it as a zip file, resource packs are saved to your browser's local storage and are saved between page refreshes. This can be used to add the original C418 soundtrack back into the game, download and import [this pack](https://bafybeiayojww5jfyzvlmtuk7l5ufkt7nlfto7mhwmzf2vs4bvsjd5ouiuq.ipfs.nftstorage.link/?filename=Music_For_Eaglercraft.zip) to add music back to Eaglercraft. A known bug with the debug desktop runtime is that sound files in resource packs do not play, this may be fixed in the future but is not a high priority issue.
+
+## Multiplayer Play
+
+EaglercraftX 1.8 allows you to connect to any server as long as you enter a special IP, e.g. **wss://server.example.com**. EaglercraftX servers MUST support WebSocket connections as Eaglercraft clients connect over WebSocket and not traditional TCP/IP like Java Minecraft. If you want to host your own server then you must download **eaglercraftx-server.jar** from https://github.com/lax1dude/eaglerxserver, you will find the rest of the instructions there for creating an EaglercraftX server. Finnally for a complete list of servers click [here](https://servers.eaglercraft.com/).
